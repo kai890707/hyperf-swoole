@@ -12,7 +12,3 @@ services:
     environment:
       - APP_ENV=dev
       - SCAN_CACHEABLE=false
-
-networks:
-  default:
-    name: hyperf-skeleton
